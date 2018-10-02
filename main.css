@@ -1,27 +1,30 @@
 body{
-  height: 100vh;
-  width: 100vw;
   padding: 0px;
   margin: 0px;
-  overflow: hidden;
+  overflow-x: hidden;
 }
 .landingPage{
   background: url("assets/background.jpg");
   background-size: cover;
+  height: 100vh;
+  width: 100vw;
 }
 #landingText{
   color: white;
   font-family: monospace;
   text-align: center;
-  padding-top: 10vh;
-  padding-bottom: 50vh;
+  margin: 0px;
   font-size: 3vw;
+  padding-top: 10vh;
 }
 #logos{
   color: white;
   font-size: 5vw;
   margin: 0px;
   padding: 0px;
+}
+#logosDiv{
+  text-align: center;
 }
 h2{
   font-size: 2.5vw;
