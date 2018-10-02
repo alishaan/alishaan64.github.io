@@ -16,6 +16,7 @@ body{
   margin: 0px;
   font-size: 3vw;
   padding-top: 10vh;
+  margin: 0px;
 }
 #logos{
   color: white;
@@ -25,10 +26,22 @@ body{
 }
 #logosDiv{
   text-align: center;
+  margin: 0px;
   margin-top: 20vh;
 }
 h2{
   font-size: 1.5vw;
   padding: 0px;
-  margin-top: -8vh;
+  margin: 0px;
+  margin-top: -20px;
+}
+.footer{
+  color: #fff;
+  background-color: #1a222c;
+  height: 15vh;
+  text-align: center;
+  font-family: monospace;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
