@@ -3,12 +3,6 @@ body{
   margin: 0px;
   overflow-x: hidden;
 }
-.landingPage{
-  background: url("assets/background.jpg");
-  background-size: cover;
-  height: 100vh;
-  width: 100vw;
-}
 #landingText{
   color: white;
   font-family: monospace;
@@ -44,4 +38,36 @@ h2{
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.landingPage{
+  background: url("assets/background.jpg");
+  background-size: cover;
+  height: 85vh;
+  width: 80vw;
+  border-bottom-right-radius: 10vw;
+}
+.sidebar{
+  width: 20vw;
+  background-color: #1a222c;
+  color: white;
+  text-align: center;
+  display: inline-block;
+}
+.sidebar a{
+    padding: 30px 8px 6px;
+    text-decoration: none;
+    font-size: 2.5vw;
+    color: white;
+    display: block;
+    font-family: monospace;
+}
+.sidebar img{
+  width: 15vw;
+  border-radius: 5vw;
+  position: relative;
+  margin-top: 7.5vh;
+}
+.body{
+  display: flex;
+  background-color: #1a222c;
 }
