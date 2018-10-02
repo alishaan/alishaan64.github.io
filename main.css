@@ -1,6 +1,6 @@
 html{
-height: 100%;
-width: 100%;
+height: 100vh;
+width: 100vw;
 padding: 0px;
 margin: 0px;
 }
@@ -9,10 +9,10 @@ body{
   margin: 0px
 }
 .landingPage{
-background: url("assets/background.jpg");
-height: 100vh;
-width: 100vw;
-background-size: cover;
+  background: url("assets/background.jpg");
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
 }
 #landingText{
   color: white;
@@ -25,4 +25,8 @@ background-size: cover;
 #logos{
   color: white;
   font-size: 10vw;
+}
+mainBody{
+  height: 100vh;
+  width: 100vw;
 }
