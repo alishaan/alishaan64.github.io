@@ -1,21 +1,20 @@
-@import url('https://fonts.googleapis.com/css?family=Lato');
-body {
+body{
+  padding: 0px, 0px, 0px, 0px;
+}
+.landingPage{
+background: url("assets/background.jpg");
+height: 100vh;
+width: 100vw;
+background-size: cover;
+}
+#landingText{
+  color: white;
+  font-family: monospace;
   text-align: center;
-  height: 100%;
-  padding: 0;
-  margin: 0;
-  font-family: 'Lato', sans-serif;
-  background-color: lightgray;
+  padding-top: 30vh;
+  padding-bottom: 50vh;
 }
-img {
+#logos{
+  display: flex;
   align-items: center;
-  width: 20%;
-  height: auto;
-  padding: 10px;
-  border-radius: 45px;
-}
-h1 {
-  margin: 0px;
-  font-family: serif, sans-serif;
-  max-width: 100%;
 }
