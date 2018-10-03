@@ -42,15 +42,9 @@ h2{
   justify-content: center;
   align-items: center;
 }
-.footerText{
-  position: absolute;
-  bottom: 2.5vh;
-  width: 85vh;
-}
 .landingPage{
   background: url("assets/background.jpg");
   background-size: cover;
-  height: 85vh;
   width: 80vw;
   border-bottom-right-radius: 10vw;
 }
