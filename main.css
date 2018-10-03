@@ -1,25 +1,17 @@
 body{
   padding: 0px;
   margin: 0px;
-  overflow-x: hidden;
-  overflow-y: hidden;
-  max-width: 100vw;
-  max-height: 100vh;
 }
 #landingText{
   color: white;
   font-family: monospace;
   text-align: center;
-  margin: 0px;
   font-size: 3vw;
   padding-top: 10vh;
-  margin: 0px;
 }
 #logos{
   color: white;
   font-size: 5vw;
-  margin: 0px;
-  padding: 0px;
 }
 #logosDiv{
   text-align: center;
