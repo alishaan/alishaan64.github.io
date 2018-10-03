@@ -78,6 +78,8 @@ h2{
 .body{
   display: flex;
   background-color: #1a222c;
+  width: 100vw;
+  height: 85vh;
 }
 .content{
   background-size: cover;
