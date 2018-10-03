@@ -37,6 +37,7 @@ h2{
 .landingPage{
   background: url("assets/background.jpg");
   background-size: cover;
+  background-position: 75%;
   width: 80vw;
   border-bottom-right-radius: 10vw;
 }
