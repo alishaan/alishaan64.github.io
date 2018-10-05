@@ -47,9 +47,10 @@ h2{
   color: white;
   text-align: center;
   display: inline-block;
+  padding-top: 10px;
 }
 .sidebar a{
-    padding: 30px 8px 6px;
+    padding: 15px 8px 15px;
     text-decoration: none;
     font-size: 2.5vw;
     color: white;
@@ -74,4 +75,7 @@ h2{
   width: 80vw;
   background-color: white;
   border-bottom-right-radius: 10vw;
+}
+.link:hover{
+  background-color: gray;
 }
