@@ -43,8 +43,8 @@ h2{
 }
 .sidebar{
   width: 20vw;
-  background-color: #1a222c;
-  color: white;
+  background-color: white;
+  color: #1a222c;
   text-align: center;
   display: inline-block;
   padding-top: 10px;
@@ -65,7 +65,8 @@ h2{
 }
 .body{
   display: flex;
-  background-color: #1a222c;
+  background-color: white;
+  color: #1a222c;
   width: 100vw;
   height: 85vh;
 }
