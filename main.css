@@ -16,12 +16,19 @@ body {
     min-height: 100vh;
     position: relative;
 }
-
-#header{
-    display: flex;
-    flex-direction: row;
+#inner{
+    max-width: 100%;
+    width: 44rem;
+    display: grid;
+    grid-template-areas: "picture text";
 }
 h1{
     color: #ff4c00;
     font-size: 4rem;
+    grid-area: text;
+    margin-top: 13.5%;
+}
+h2{
+    grid-area: text;
+    margin-top: 23.5%;
 }
