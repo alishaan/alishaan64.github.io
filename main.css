@@ -1,0 +1,27 @@
+#proPic{
+    width: 14rem;
+    border-radius: 4rem;
+
+}
+body {
+    background-color: #ffedda;
+    font-family: 'Manjari', sans-serif;
+}
+
+#mainWrapper{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    position: relative;
+}
+
+#header{
+    display: flex;
+    flex-direction: row;
+}
+h1{
+    color: #ff4c00;
+    font-size: 4rem;
+}
