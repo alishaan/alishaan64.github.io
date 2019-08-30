@@ -53,3 +53,7 @@ i{
     font-size: 1.5rem;
     color: gray;
 }
+p a{
+    color: #f79368;
+    text-decoration-style: dashed;
+}
