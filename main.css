@@ -17,18 +17,39 @@ body {
     position: relative;
 }
 #inner{
-    max-width: 100%;
-    width: 44rem;
     display: grid;
     grid-template-areas: "picture text";
+    max-width: 100%;
+    width: 44rem;
+    margin-top: 1rem;
 }
 h1{
     color: #ff4c00;
     font-size: 4rem;
     grid-area: text;
-    margin-top: 13.5%;
+    margin-top: 3rem;
+    margin-left: 0rem;
 }
 h2{
     grid-area: text;
-    margin-top: 23.5%;
+    margin-top: 7rem;
+    margin-left: 1rem;
+}
+#socialMediaButtons{
+    grid-area: text;
+    margin-top: 9rem;
+    margin-left: 1rem;
+    color: #888888;
+}
+i{
+    margin-left: 1.1rem;
+    margin-right: 1.1rem;
+}
+#text{
+    max-width: 100%;
+    width: 44rem;
+    text-align: center;
+    margin-top: .5rem;
+    font-size: 1.5rem;
+    color: gray;
 }
