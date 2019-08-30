@@ -38,10 +38,11 @@ h2{
 #socialMediaButtons{
     grid-area: text;
     margin-top: 9rem;
-    margin-left: 1rem;
+    margin-left: 1.8rem;
     color: #888888;
 }
-i{
+a i{
+    color: #888888;
     margin-left: 1.1rem;
     margin-right: 1.1rem;
 }
