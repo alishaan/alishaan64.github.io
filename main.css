@@ -38,7 +38,7 @@ h2{
 #socialMediaButtons{
     grid-area: text;
     margin-top: 9rem;
-    margin-left: 1.8rem;
+    margin-left: 0rem;
     color: #888888;
 }
 a i{
