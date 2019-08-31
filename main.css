@@ -28,7 +28,7 @@ h1{
     font-size: 4rem;
     grid-area: text;
     margin-top: 3rem;
-    margin-left: 0rem;
+    margin-left: .4rem;
 }
 h2{
     grid-area: text;
@@ -64,6 +64,7 @@ p a{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        text-align: center;
     }
     h1, h2{
         margin-top: 0rem;
