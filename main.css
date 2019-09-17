@@ -59,6 +59,9 @@ p a{
     text-decoration-style: dashed;
 }
 @media screen and (max-width: 600px) {
+    html{
+        text-align: center;
+    }
     #inner{
         display: flex;
         flex-direction: column;
