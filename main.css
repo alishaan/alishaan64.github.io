@@ -33,7 +33,6 @@ h1{
 h2{
     grid-area: text;
     margin-top: 7rem;
-    margin-left: 1rem;
 }
 #socialMediaButtons{
     grid-area: text;
